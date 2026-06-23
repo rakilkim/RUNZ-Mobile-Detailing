@@ -100,9 +100,9 @@ document.querySelector('#app').innerHTML = `
             <div>
               <p class="font-semibold mb-1">Pricing by vehicle</p>
               <ul class="space-y-1">
-                <li class="flex justify-between"><span>Sedan / Coupe</span><span class="font-bold">$85</span></li>
-                <li class="flex justify-between"><span>SUV / Truck</span><span class="font-bold">$95</span></li>
-                <li class="flex justify-between"><span>Large SUV / Van</span><span class="font-bold">$110</span></li>
+                <li class="flex justify-between"><span>Sedan</span><span class="font-bold">$85</span></li>
+                <li class="flex justify-between"><span>SUV</span><span class="font-bold">$95</span></li>
+                <li class="flex justify-between"><span>Van / Truck</span><span class="font-bold">$110</span></li>
               </ul>
             </div>
             <div>
@@ -145,9 +145,9 @@ document.querySelector('#app').innerHTML = `
             <div>
               <p class="font-semibold mb-1">Pricing by vehicle</p>
               <ul class="space-y-1">
-                <li class="flex justify-between"><span>Sedan / Coupe</span><span class="font-bold">$225</span></li>
-                <li class="flex justify-between"><span>SUV / Truck</span><span class="font-bold">$250</span></li>
-                <li class="flex justify-between"><span>Large SUV / Van</span><span class="font-bold">$275</span></li>
+                <li class="flex justify-between"><span>Sedan</span><span class="font-bold">$225</span></li>
+                <li class="flex justify-between"><span>SUV</span><span class="font-bold">$250</span></li>
+                <li class="flex justify-between"><span>Van / Truck</span><span class="font-bold">$275</span></li>
               </ul>
             </div>
             <div>
@@ -189,9 +189,9 @@ document.querySelector('#app').innerHTML = `
             <div>
               <p class="font-semibold mb-1">Pricing by vehicle</p>
               <ul class="space-y-1">
-                <li class="flex justify-between"><span>Sedan / Coupe</span><span class="font-bold">$275</span></li>
-                <li class="flex justify-between"><span>SUV / Truck</span><span class="font-bold">$300</span></li>
-                <li class="flex justify-between"><span>Large SUV / Van</span><span class="font-bold">$325</span></li>
+                <li class="flex justify-between"><span>Sedan</span><span class="font-bold">$275</span></li>
+                <li class="flex justify-between"><span>SUV</span><span class="font-bold">$300</span></li>
+                <li class="flex justify-between"><span>Van / Truck</span><span class="font-bold">$325</span></li>
               </ul>
             </div>
             <div>
