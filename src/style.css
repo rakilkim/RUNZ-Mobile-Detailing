@@ -1,1 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;500;600;700&family=Orbitron:wght@400;500;600;700&family=Montserrat:wght@400;500;600;700&family=Great+Vibes&display=swap');
 @import "tailwindcss";
+
+@theme base {
+  /* Color tokens */
+  --color-title: #DC0402;       /* red */
+  --color-primary: #FFFFFF;     /* white */
+  --color-secondary: #111827;
+  --color-background: #000000;  /* black */
+
+  /* Fonts */
+  --font-orbitron: 'Orbitron', sans-serif;
+  --font-barlow-condensed: 'Barlow Condensed', sans-serif;
+  --font-montserrat: "Montserrat", sans-serif;
+  --font-great-vibes: "Great Vibes", cursive;
+}
+
+/* Apply Orbitron site-wide, but keep regular paragraphs using the base font */
+body {
+  font-family: var(--font-barlow-condensed);
+}
+
+p,
+p * {
+  font-family: var(--font-montserrat);
+}
